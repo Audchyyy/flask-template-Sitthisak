@@ -10,12 +10,14 @@
   <!--a href="/">Home</!--a> | 
   <a href="/about">About</a> | 
   <a href="/favorite/foods">Favorite Foods</a> | 
-  <a href="/favorite/sports">Favorite Sports</a> |  -->
+  <a href="/favorite/sports">Favorite Sports</a> |  
+  <a href="/favorite/movies">Favorite Movies</a> |  -->
   <a href="{{ url_for('index')}}">Home</a> | 
   <a href="{{ url_for('about')}}">About</a> | 
   <a href="{{ url_for('favorite_foods') }}">Favorite Foods</a> |
   <a href="{{ url_for('favorite_sports') }}">Favorite Sports</a> | 
-
+  <a href="{{ url_for('favorite_movies') }}">Favorite Movies</a> |
+  <hr>
   {% block content %}{% endblock %}
   
 
